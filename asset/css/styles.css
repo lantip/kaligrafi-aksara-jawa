@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Ngayogyan;
+    src: url('../fonts/nykNgayogyanNewFULL.ttf');
+}
+
+@font-face {
+    font-family: Istaka;
+    src: url('../fonts/Istaka.ttf');
+}
+
+@font-face {
+    font-family: NgayogyanJejeg;
+    src: url('../fonts/nykNgayogyanJejeg.ttf');
+}
+
+@font-face {
+    font-family: NewKramawirya;
+    src: url('../fonts/NewKramawirya.ttf');
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+canvas {
+    cursor: crosshair;
+}
+
+span#info {
+    font-family: 'Arial', cursive;
+    font-size: 40px;
+    position: fixed;
+    top: 25%;
+    left: 15%;
+    color: #000;
+}
+
+span#info:hover {
+    display: none;
+}
