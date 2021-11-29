@@ -37,8 +37,12 @@ function init() {
     canvas.addEventListener('touchend', mouseUp, false);
 
     window.onresize = function(event) {
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
+        if (event.type.includes('touch')) {
+
+        } else {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
     }
 }
 
